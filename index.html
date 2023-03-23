@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="game.css">
+    <meta charset="utf-8">
+    <title>FDRSCRAFT</title>
+</head>
+
+<body>
+    <canvas id="cvs" oncontextmenu="return false"></canvas>
+    <script src="libs/perlin.js"></script>
+    <script src="blocks.js"></script>
+    <script src="particles.js"></script>
+    <script src="world.js"></script>
+    <script src="entities.js"></script>
+    <script src="chunk.js"></script>
+    <script src="worldGeneration.js"></script>
+    <script src="graphics.js"></script>
+    <script src="explosion.js"></script>
+    <script src="GUI.js"></script>
+    <script src="main.js"></script>
+    <button onclick="start()" id="start">Страт</button>
+    <div>
+        <p id="fps"></p>
+        <p id="leftX"></p>
+        <p id="rightX"></p>
+        <p id="topY"></p>
+        <p id="bottomY"></p>
+        <p id="playerX"></p>
+        <p id="playerY"></p>
+        <p id="playerIsOnGround"></p>
+        <p id="playerVelX"></p>
+        <p id="playerVelY"></p>
+        <p id="topYCollision"></p>
+        <p id="bootomYCollision"></p>
+        <p id="playerHealth"></p>
+        <input type="range" min="0" max="64" step="1" value="8" id="lightingRadius">
+    </div>
+</body>
+
+</html>

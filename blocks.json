@@ -1,0 +1,131 @@
+{
+    "blocks": [
+        {
+            "id": "barrier",
+            "material": "solid",
+            "name": "Барьер",
+            "binding": "none",
+            "textureType": "simple",
+            "replaceable": "false"
+        },
+        {
+            "id": "stone",
+            "material": "solid",
+            "name": "Камень",
+            "binding": "none",
+            "textureType": "adaptive",
+            "textureGroup": "terrain",
+            "replaceable": "false"
+        },
+        {
+            "id": "copper",
+            "material": "solid",
+            "name": "Медь",
+            "binding": "none",
+            "textureType": "simple",
+            "textureGroup": "terrain",
+            "replaceable": "false"
+        },
+        {
+            "id": "iron",
+            "material": "solid",
+            "name": "Железо",
+            "binding": "none",
+            "textureType": "simple",
+            "textureGroup": "terrain",
+            "replaceable": "false"
+        },
+        {
+            "id": "gold",
+            "material": "solid",
+            "name": "Золото",
+            "binding": "none",
+            "textureType": "simple",
+            "textureGroup": "terrain",
+            "replaceable": "false"
+        },
+        {
+            "id": "diamonds",
+            "material": "solid",
+            "name": "Алмазы",
+            "binding": "none",
+            "textureType": "simple",
+            "textureGroup": "terrain",
+            "replaceable": "false"
+        },
+        {
+            "id": "dirt",
+            "material": "solid",
+            "name": "Земля",
+            "binding": "none",
+            "textureType": "adaptive",
+            "textureGroup": "terrain",
+            "replaceable": "false"
+        },
+        {
+            "id": "grass",
+            "material": "solid",
+            "name": "Блок травы",
+            "binding": "none",
+            "textureType": "simple",
+            "textureGroup": "terrain",
+            "replaceable": "false"
+        },
+        {
+            "id": "tallGrass",
+            "material": "transperent",
+            "name": "Высокая трава",
+            "binding": "bottom",
+            "textureType": "simple",
+            "replaceable": "true"
+        },
+        {
+            "id": "birch",
+            "material": "transperent",
+            "name": "Берёза",
+            "binding": "none",
+            "textureType": "simple",
+            "replaceable": "false"
+        },
+        {
+            "id": "birchLeaves",
+            "material": "transperent",
+            "name": "Листва берёзы",
+            "binding": "none",
+            "textureType": "simple",
+            "replaceable": "true"
+        },
+        {
+            "id": "woodenChest",
+            "material": "transperent",
+            "name": "Сундук",
+            "binding": "bottom",
+            "textureType": "simple",
+            "replaceable": "false"
+        },
+        {
+            "id": "stalactite",
+            "material": "transperent",
+            "name": "Сталактит",
+            "binding": "top",
+            "textureType": "simple",
+            "replaceable": "true"
+        },
+        {
+            "id": "stalagmite",
+            "material": "transperent",
+            "name": "Сталагмит",
+            "binding": "bottom",
+            "textureType": "simple",
+            "replaceable": "true"
+        },
+        {
+            "id": "lianas",
+            "material": "transperent",
+            "name": "Лианы",
+            "binding": "top",
+            "textureType": "simple",
+            "replaceable": "true"
+        }
+    ]
+}

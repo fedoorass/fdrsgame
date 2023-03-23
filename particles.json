@@ -1,0 +1,9 @@
+{
+    "particles": [
+        {
+            "id": "stone",
+            "material": "solid",
+            "name": "Камень"
+        }
+    ]
+}
