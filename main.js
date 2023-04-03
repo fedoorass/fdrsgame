@@ -365,11 +365,11 @@ function playerControl() {
         player.velocity.x = Math.max(Math.abs(player.velocity.x) - 0.03125, 0) * (player.velocity.x / Math.abs(player.velocity.x))
     }
 
-    if (player.isOnGround && activeKeys[87] && !player.jumped) {
+    if (player.isOnGround && (activeKeys[87] }) && !player.jumped) {
         player.velocity.y -= 0.5
         player.jumped = true
     }
-    if (!activeKeys[87] && player.isOnGround) {
+    if ((!activeKeys[87] || activeKeys[32]) && player.isOnGround) {
         player.jumped = false
     }
 
