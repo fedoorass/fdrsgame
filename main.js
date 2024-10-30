@@ -534,7 +534,7 @@ function blockSelecting() {
 window.addEventListener("contextmenu", (e) => { e.preventDefault(); return false; })
 
 function start() {
-    perlinGeneration(1, 64, 192)
+    perlinGeneration(1, 32, 96)
     window.requestAnimationFrame(main)
     document.getElementById("start").remove()
 }
